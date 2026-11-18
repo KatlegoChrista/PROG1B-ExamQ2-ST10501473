@@ -1,0 +1,5 @@
+Customer: katlego | Product: Sealy Phuket | Price: R3500,00 | VAT: R525,00 | Commission: R175,00 | Total: R4200,00
+Customer Name: kat | Product: Cozy Nights Monarch | VAT: R 90.0 | COMMISSION: R 30.0 | TOTAL: R 720.0
+Customer Name: katlego  | Product: Cozy Nights Monarch | VAT: R 750.0 | COMMISSION: R 250.0 | TOTAL: R 6000.0
+Customer Name: katlego  | Product: Sealy Phuket | VAT: R 750.0 | COMMISSION: R 250.0 | TOTAL: R 6000.0
+Customer Name: katlego  | Product: Sealy Phuket | VAT: R 750.0 | COMMISSION: R 250.0 | TOTAL: R 6000.0
