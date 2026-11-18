@@ -9,10 +9,10 @@ public class MattressSalesApp extends JFrame {
 
     public MattressSalesApp() {
         setTitle("Product App");
-        setSize(500, 350);
+        setSize(480, 350);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
-        setLayout(null); // like screenshot - fixed positions
+        setLayout(null); 
 
         // Menu 
         JMenuBar menuBar = new JMenuBar();
@@ -28,6 +28,7 @@ public class MattressSalesApp extends JFrame {
         menuBar.add(mnuTools);
         setJMenuBar(menuBar);
 
+         //customer details and product selection
         JLabel lblCustomer = new JLabel("Customer Name:");
         JLabel lblProduct = new JLabel("Select Product:");
         JLabel lblPrice = new JLabel("Enter Price:");
@@ -58,7 +59,8 @@ public class MattressSalesApp extends JFrame {
             double vat = calc.GetVat();
             double comm = calc.GetCommission();
             double total = calc.GetTotal();
-
+            
+            //pop-up message with entered details and calculate VAT + commission
             String msg = "Customer Name: " + customer +
                     "\nProduct: " + product +
                     "\nVAT: R " + vat +
